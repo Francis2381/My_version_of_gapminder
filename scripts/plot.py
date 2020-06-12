@@ -38,7 +38,7 @@ def modify_doc(df1):
     # A function to create the plot
     def make_plot(src):
         # Blank plot with correct labels
-        p = figure(plot_width = 1000, plot_height = 600, title = 'Countries GDP per cap. vs Life expectancy',
+        p = figure(plot_width = 1000, plot_height = 600, title = 'Life Expectancy vs Birth Rate',
                   x_axis_label = 'Birth Rate', y_axis_label = 'Life Expectancy')
         
         value = list(df1['region'].unique())
@@ -117,8 +117,7 @@ def modify_doc(df1):
     controls = row(region_selection, year_lider, button)    
     
     p = make_plot(src)
-    
-    layout = column(controls, p)
+    layout = column([controls, p])
     
     return layout
     
