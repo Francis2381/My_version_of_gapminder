@@ -5,4 +5,4 @@ This is my first time trying to create an application using Bokeh and I decided 
 
 This plot can simply be run from command prompt by navigating to this directory and typing 'Bokeh serve'. Well the gif below shows a glimpse of the output.
 
-<img src="/francisatoyebi.github.io/Images/gapminder.gif" width="100%">
+![animmation of the plot](https://francisatoyebi.github.io/francisatoyebi.github.io/Images/gapminder.gif)
